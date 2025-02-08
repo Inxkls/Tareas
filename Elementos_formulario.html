@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+    </head>
+  <body>
+    <h2> Ejemplo de elementos de formulario</h2>
+    <form action="#" method="post">
+        <!-- Grupos -->
+        <fieldset>
+        <legend>Campos obligatorios</legend>
+      <!-- campo de texto -->
+      <p>
+        <label for="id_nombre">Nombre:</label>
+        <input type="text" id="id_nombre" name="Nombre" required>
+      </p>
+      <!-- Campo de contraseña -->
+      <p>
+        <label>Contraseña:
+          <input type="password" name="password" required>
+        </label>
+      </p>
+        <!-- Campo de correo electronico -->
+      <p>
+         <label for="correo">Correo electronico:</label>
+         <input type="email" id="correo" name="email" required>
+      </p>
+         </fieldset>
+      <!-- Campo de numero -->
+       <p>
+        <label for="numero">Edad:</label>
+        <input type="number" id="numero" name="numero" min="1" max="106"
+        >
+       </p>
+       <!-- campo de fecha -->
+        <p>
+            <label>Fecha de nacimiento:</label>
+            <input type="date" id="fecha" name="Fecha"
+        </p>
+        <!-- campo de hora -->
+         <p>
+            <label>
+                Hora de cita:
+                <input type="time" name="hora">
+            </label>
+         </p>
+         <!-- Campo de seleccion -->
+          <p>
+            <label for="id_pais:">Pais:</label>
+            <select id="id_pais" name="pais"
+                <option value="">Seleccione...</option>
+                <option value="mx">Mexico</option>
+                <option value="co">Colombia</option>
+                <option value="br">Brasil</option>
+            </select> 
+          </p>
+            <!-- Campos de radio -->
+          <p>
+          <label>Genero:</label>
+          <input type="radio" id="masculino" name="genero" value="masculino"
+          <label for="masculino">Masculino</label>
+          <input type="radio" id="femenino" name="genero" value="femenino"
+          >
+          <label for="femenino">Femenino</label>
+        </p>
+        <!-- Casillas de verificacion -->
+         <p>
+            <label>Intereses:</label>
+            <input type="checkbox" id="deportes" name="Intereses" value="deportes">
+            <label for="deportes">Deportes</label>
+            <input type="checkbox" id="artes" name="Intereses" value="artes">
+            <label for="artes">Artes</label>
+            <input type="checkbox" id="lectura" name="Intereses" value="lectura">
+            <label for="lectura">lectura</label>
+         </p>
+         <!-- campo de archivos -->
+          <p>
+            <label for="archivo">Subir archivos:</label>
+            <input type="file" id="archivo" name="file">
+          </p>
+          <!-- Area de texto -->
+           <p>
+           <label for="comentarios">comentarios:<br></label>
+           <textarea id="comentarios" name="comenta" rows="5" cols="50">Este texto aparece...</textarea>
+           </p>
+           <!-- Botones-->
+            <p>
+                <button type="submit">Enviar</button>
+                <button type="reset">Restablecer</button>
+            </p>
+    </form>
+  </body>
+</html>
