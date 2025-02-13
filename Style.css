@@ -1,0 +1,21 @@
+h1 {
+    border-radius: 20px;
+    color: rgb(0, 0, 0);
+    background: #aaaaaa;
+    margin: 20px;
+    border-width: 5px;
+    border-color: rgb(105, 1, 1);
+    border-style: groove;
+    padding: 25px;
+    text-align: center;
+    /* Fuentes por default: serif, sans-serif, cursive, fantasy y monospace */
+        font-family: "Atkinson Hyperlegible Mono", serif;
+        font-optical-sizing: auto;
+        font-weight: <weight>;
+        font-style: normal;
+        font-size: 40px;
+}
+
+ing {
+    border-radius: 50%;
+}
