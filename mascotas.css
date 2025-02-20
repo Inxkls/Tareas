@@ -1,0 +1,15 @@
+body {
+    margin: 50px;
+    background: rgb(134, 153, 83);
+    font-size: Arial;
+}
+
+
+header {
+    width: 300px;
+    text-align: center;
+    margin-left: center;
+    margin-right: center;
+    background: linear-gradient(0deg, #08a4ff 50%, #ffffff 100%);
+    color: rgb(0, 0, 0);
+}
