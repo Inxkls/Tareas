@@ -1,0 +1,51 @@
+body {
+    background-color: rgb(185, 192, 192);
+}
+
+h1 {
+    color: blue;
+    font-size: 40px;
+}
+
+h2 {
+    color: blue;
+    font-size: 30px;
+}
+
+h3 {
+    color: blue;
+    font-size: 20px;
+}
+
+section {
+    
+    img {
+        margin: 20px;
+        padding: 25px;
+        border-radius: 50%;
+        background: linear-gradient(0deg, rgb(115, 198, 204) 0%, #ffffff 100%);
+        border-left: 25%;
+    }
+    
+    
+    th, td {
+        border: 1px, solid #ad9f9f;
+        padding: 10px;
+        text-align: left;
+    
+    }
+    th {
+        background-color: rgb(123, 123, 150);
+        color: rgb(14, 9, 9);
+        text-align: center;
+    }
+    
+    tr:nth-child(even) {
+        background-color: rgb(165, 193, 212);
+    }
+    
+    tr:nth-child(even) {
+        background-color: rgb(140, 194, 224);
+    }
+}
+
